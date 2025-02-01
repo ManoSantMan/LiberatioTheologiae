@@ -1,0 +1,102 @@
+body {
+    background-color: #f4f4f4;
+    font-family: 'Times New Roman', serif;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    background-image: url('backbrabo.png'); /* Substitua pelo caminho da sua imagem */
+    background-size: 100%;
+    background-attachment: fixed; /* Mantém a imagem fixa enquanto o conteúdo rola */
+}
+
+.content {
+    background: rgba(255, 255, 255, 0.9); /* Fundo branco semi-transparente para o conteúdo */
+    padding: 20px;
+    margin-top: 800px; /* Faz o conteúdo começar após a altura total da tela */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1, h3 {
+    text-align: center;
+    color: #111;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.8em;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.8;
+    font-size: 1.1em;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+ul li::before {
+    content: "• ";
+    color: #333;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.aspas {
+    background-color: #ddd;
+    padding: 15px;
+    border-left: 5px solid #555;
+    font-style: italic;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; /* Centraliza as imagens */
+    gap: 20px; /* Espaço entre as imagens */
+}
+
+.image-container img {
+    width: 30%; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    border: 5px solid #333;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.aspas1 {
+    background-color: #ddd;
+    padding: 15px;
+    border-left: 5px solid #555;
+    font-style: italic;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+.header img {
+    max-width: 100%;
+    height: 100%;
+}
+
+
+
+
